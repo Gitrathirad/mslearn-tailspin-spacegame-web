@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'az-400rathiradLinuxAgent'
+  name: 'az-400rathiradLinuxAgent'
   demands:
     - npm
 
